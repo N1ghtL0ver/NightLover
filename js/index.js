@@ -8,5 +8,11 @@ document.querySelector(".more_info").addEventListener('click', function(){
         confirmButtonText:
           '<i class="fa fa-thumbs-up"></i> Great!',
         confirmButtonAriaLabel: 'Thumbs up, great!',
+         showClass: {
+        popup: 'animate__animated animate__fadeInDown'
+         },
+        hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+        }
     });
 });
